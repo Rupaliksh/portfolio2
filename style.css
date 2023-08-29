@@ -421,7 +421,10 @@ margin-bottom: 10px;
     border-radius: 10px;
     padding: 20px;
     width: 350px;
-    height: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
