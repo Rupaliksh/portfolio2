@@ -161,6 +161,7 @@ span{
 
 .btn:hover {
     box-shadow: none;
+    color: white;
 }
 
 /*=============== About Section ===============*/
@@ -206,11 +207,12 @@ span{
 .info-para p {
     margin: 0;
     font-size: 1.6rem;
+    margin-top: 10px;
 }
 
 .my-skills {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    grid-template-columns: auto auto auto; 
     grid-gap: 15px;
     margin-top: 20px; 
     justify-items: start; 
@@ -289,11 +291,14 @@ margin-bottom: 10px;
     margin: 0 auto;
 }
 .project-box img {
+   
     width: 100%;
+    height: 100%;
     transition: .5s ease;
 }
 .project-box:hover img {
     width: 100%;
+    height: 100%;
     transform: scale(1.1);
 }
 .project-box .project-layer {
@@ -316,8 +321,15 @@ margin-bottom: 10px;
     transform: translateY(0);
 }
 .project-layer h4 {
-    font-size: 2rem;
-    color: var(--bg-color);
+    font-size: 2.5rem;
+    color:var(--text-color);
+    -webkit-text-fill-color: var(--text-color);
+    -webkit-text-stroke: 1px var(--bg-color);
+    stroke: 1px var(--bg-color);
+    display: inline;
+}
+.project-layer p {
+     font-size: 1.5rem;
 }
 .icon-container {
     display: flex;
@@ -402,6 +414,14 @@ margin-bottom: 10px;
     font-size: 3rem;
     color: var(--main-color);
     
+}
+
+.thankyou_box {
+    background-color:var(--second-bg-color);
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    height: auto;
 }
 
 

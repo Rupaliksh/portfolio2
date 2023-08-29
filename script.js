@@ -121,37 +121,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
- //contact form 
- document.addEventListener('DOMContentLoaded', function () {
-    // Attach the form submission event handler
-    document.querySelector('.form').addEventListener('submit', async function(event) {
-        event.preventDefault(); // Prevent the default form submission
-        
-        const form = event.target;
-        const formData = new FormData(form);
-        
-        try {
-            const response = await fetch(form.action, {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json'
-                }
-            });
-            
-            if (response.ok) {
-                document.querySelector('#msg').textContent = "Form submitted successfully!";
-                form.reset(); // Clear the form fields
-            } else {
-                document.querySelector('#msg').textContent = "Form submission failed.";
-            }
-        } catch (error) {
-            console.error('Error submitting form:', error);
-            document.querySelector('#msg').textContent = "An error occurred.";
-        }
-        form.reset();
-    });
-});
 
 
 
