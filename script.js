@@ -74,7 +74,7 @@ navlinks.forEach(link => {
 const typedText = document.querySelector('.typed-text');
 
 // The text you want to type
-const targetText = "Full-Stack Developer";
+const targetText = "Frontend Developer";
 
 // Current index of the character being typed
 let charIndex = 0;
