@@ -288,9 +288,9 @@ margin-bottom: 10px;
     box-shadow: 0 0 1rem var(--second-bg-color);
     overflow: hidden;
     display: flex;
-    width: 90%; /* Reduce the width to make them narrower */
-    max-width: 300px; /* Limit the maximum width for readability */
-    height: 180px; /* Adjust the height for visibility */
+    width: 90%; 
+    max-width: 300px; 
+    height: 180px; 
     margin: 0 auto;
 }
 .project-box img {
@@ -417,6 +417,11 @@ margin-bottom: 10px;
 .contact-item i {
     font-size: 3rem;
     color: var(--main-color);
+}
+
+.linkedin-link {
+    color: var(--text-color);
+    font-size: 1.6rem;
 }
 
 .thankyou_box {
