@@ -346,6 +346,7 @@ margin-bottom: 10px;
     height: 5rem;
     color:var(--bg-color);
     margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
 }
 
 
@@ -413,7 +414,6 @@ margin-bottom: 10px;
 .contact-item i {
     font-size: 3rem;
     color: var(--main-color);
-    
 }
 
 .thankyou_box {
