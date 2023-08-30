@@ -556,20 +556,20 @@ margin-bottom: 10px;
         width: 100%;
     }
     .home-content h3 {
-        font-size: 1.8rem; /* Further reduce font size for better fit */
+        font-size: 1.8rem; 
     }
     
     .home-content h1 {
-        font-size: 3.5rem; /* Further reduce font size for better fit */
+        font-size: 3.5rem; 
     }
     
     .home-content p {
-        font-size: 1.2rem; /* Further reduce font size for better fit */
+        font-size: 1.2rem; 
     }
     
     .btn {
-        font-size: 1.2rem; /* Further reduce font size for better fit */
-        margin-top: 15px; /* Adjust margin for spacing */
+        font-size: 1.2rem; 
+        margin-top: 15px; 
     }
 }
 @media (max-width: 365px){
@@ -577,22 +577,22 @@ margin-bottom: 10px;
         width: 90vw;
     }
     .home-content h3 {
-        font-size: 1.6rem; /* Further reduce font size for better fit */
+        font-size: 1.6rem; 
     }
 
     .home-content h1 {
-        font-size: 3rem; /* Further reduce font size for better fit */
+        font-size: 3rem;
     }
 
     .home-content p {
-        font-size: 1rem; /* Further reduce font size for better fit */
+        font-size: 1rem;
     }
 
     .btn {
-        font-size: 1rem; /* Further reduce font size for better fit */
-        margin-top: 10px; /* Adjust margin for spacing */
-    }
-} 
+        font-size: 1rem;
+        margin-top: 10px;
+    } 
+}
 @media (max-width: 991px) {
     .about-content {
         flex-direction: column;
