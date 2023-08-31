@@ -121,6 +121,17 @@ window.addEventListener('scroll', () => {
     }
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const contactForm = document.getElementById('contact-form');
+  
+    // Add event listener to the form submission
+    contactForm.addEventListener('submit', (event) => {
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+    });
+  });
+  
 
 
 
