@@ -439,6 +439,7 @@ margin-bottom: 10px;
 .thankyou_link{
     text-decoration: none;
     color: var(--text-color);
+    cursor: pointer;
 }
 
 /*=============== BreakPoints ===============*/
