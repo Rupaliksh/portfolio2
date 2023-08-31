@@ -627,3 +627,19 @@ margin-bottom: 10px;
         margin: 50px;
     }
 }
+
+@media only screen and (max-width: 360px) {
+    .thankyou_box {
+        width: 90%; /* Adjust the width as needed */
+        margin: 50px auto; /* Center the box */
+        padding: 20px;
+        padding-top: 100px; /* Adjust spacing */
+        padding-left: 20px; /* Adjust spacing */
+    }
+}
+
+
+
+
+
+
