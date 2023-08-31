@@ -610,12 +610,6 @@ margin-bottom: 10px;
 }
 /*============ Media Queries for thanks page ============*/ 
 
-@media (max-width: 768px) {
-    .thankyou_box {
-        width: 200px;
-        margin-left: 200px;
-    }
-}
 
 @media (max-width: 617px) {
     .thankyou_box {
