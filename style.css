@@ -606,3 +606,42 @@ margin-bottom: 10px;
         text-align: center;
     }
 }
+/*============ Media Queries for thanks page ============*/ 
+
+@media (max-width: 1200px) {
+    .thankyou_box {
+        width: 300px;
+        margin-left: 400px;
+    }
+}
+
+@media (max-width: 991px) {
+    .thankyou_box {
+        width: 250px;
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .thankyou_box {
+        width: 200px;
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 617px) {
+    .thankyou_box {
+        width: 150px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 450px) {
+    .thankyou_box {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
