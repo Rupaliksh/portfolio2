@@ -424,24 +424,6 @@ margin-bottom: 10px;
     font-size: 1.6rem;
 }
 
-.thankyou_box {
-    background-color:var(--second-bg-color);
-    border-radius: 10px;
-    padding: 20px;
-    width: 350px;
-    height: 300px;
-    margin-top: 130px;
-    margin-left: 450px;
-    padding-top: 128px;
-    text-align: center;
-}
-
-.thankyou_link{
-    text-decoration: none;
-    color: var(--text-color);
-    cursor: pointer;
-}
-
 /*=============== BreakPoints ===============*/
 @media (max-width: 1200px){
     html {
@@ -608,44 +590,5 @@ margin-bottom: 10px;
         width: 100%;
         padding: 20px;
         text-align: center;
-    }
-}
-/*============ Media Queries for thanks page ============*/ 
-
-@media (max-width: 1200px) {
-    .thankyou_box {
-        width: 300px;
-        margin-left: 400px;
-    }
-}
-
-@media (max-width: 991px) {
-    .thankyou_box {
-        width: 250px;
-        margin-left: 300px;
-    }
-}
-
-@media (max-width: 768px) {
-    .thankyou_box {
-        width: 200px;
-        margin-left: 200px;
-    }
-}
-
-@media (max-width: 617px) {
-    .thankyou_box {
-        width: 150px;
-        margin-left: 150px;
-    }
-}
-
-@media (max-width: 450px) {
-    .thankyou_box {
-        width: 100%;
-        margin-left: 0;
-        padding: 113px;
-        text-align: center;
-        margin: 50px;
     }
 }
